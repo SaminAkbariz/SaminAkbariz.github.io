@@ -1,0 +1,30 @@
+[
+  {
+    "title": "ChatBot intelligente di domande e risposte con GPT-5.2",
+    "summary": "Un chatbot intelligente di domande e risposte che combina un modello linguistico di grandi dimensioni con il confronto testuale TF-IDF, sviluppato con Django.",
+    "repo": "https://github.com/SaminAkbariz/QA_ChatBot",
+    "image": "assets/images/project-chatbot.webp",
+    "imageAlt": "Screenshot of the Intelligent QA ChatBot web interface"
+  },
+  {
+    "title": "Sistema IoT di rilevamento di incendi e fumo con dashboard web in tempo reale",
+    "summary": "Il mio progetto di tesi triennale. Collega la sensoristica basata su ESP32 a una dashboard web Django per seguire in tempo reale i dati di incendio e fumo.",
+    "repo": "https://github.com/SaminAkbariz/iot-fire-gas-monitoring",
+    "image": "assets/images/project-iot.webp",
+    "imageAlt": "Screenshot of the IoT fire and gas monitoring dashboard"
+  },
+  {
+    "title": "Sky Movie: backend di una piattaforma di streaming",
+    "summary": "Il backend di una piattaforma di streaming di film, incentrato su Django e su un livello di REST API.",
+    "repo": "https://github.com/SaminAkbariz/Movie-web-backend-with-django-",
+    "image": "assets/images/project-skymovie.webp",
+    "imageAlt": "Screenshot of the Sky Movie streaming platform"
+  },
+  {
+    "title": "Gioco 2D in Unity: Pink Cute Cake Adventure",
+    "summary": "Un gioco 2D sviluppato con Unity e C#.",
+    "repo": "https://github.com/SaminAkbariz/Pink-cute-cake-Adventure",
+    "image": "assets/images/project-unity.webp",
+    "imageAlt": "Screenshot of the Pink Cute Cake Adventure 2D game"
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "subjects": [],
+  "categories": [
+    {
+      "title": "گواهی‌های رسمی سازمان آموزش فنی و حرفه‌ای",
+      "items": [
+        {
+          "title": "گواهی مهارت برنامه‌نویسی زبان JavaScript",
+          "issuer": "سازمان آموزش فنی و حرفه‌ای کشور",
+          "date": "1405/02/12",
+          "credentialId": "44690401",
+          "topics": [
+            "۹۰ ساعت",
+            "نمره ۸۴ از ۱۰۰ — خیلی خوب",
+            "ترجمه رسمی انگلیسی"
+          ],
+          "pdf": "assets/certificates/tvto-javascript.pdf",
+          "image": "assets/certificates/tvto-javascript.jpg",
+          "thumb": "assets/certificates/tvto-javascript-thumb.webp"
+        },
+        {
+          "title": "گواهی مهارت طراحی وب (HTML5، CSS3)",
+          "issuer": "سازمان آموزش فنی و حرفه‌ای کشور",
+          "date": "1404/08/14",
+          "credentialId": "43654335",
+          "topics": [
+            "۵۴ ساعت",
+            "نمره ۹۷ از ۱۰۰ — عالی",
+            "ترجمه رسمی انگلیسی"
+          ],
+          "pdf": "assets/certificates/tvto-html-css.pdf",
+          "image": "assets/certificates/tvto-html-css.jpg",
+          "thumb": "assets/certificates/tvto-html-css-thumb.webp"
+        },
+        {
+          "title": "گواهی مهارت برنامه‌نویسی Python",
+          "issuer": "سازمان آموزش فنی و حرفه‌ای کشور",
+          "date": "1405/02/12",
+          "credentialId": "44690391",
+          "topics": [
+            "۱۱۰ ساعت",
+            "نمره ۸۲ از ۱۰۰ — خیلی خوب",
+            "ترجمه رسمی انگلیسی"
+          ],
+          "pdf": "assets/certificates/tvto-python.pdf",
+          "image": "assets/certificates/tvto-python.jpg",
+          "thumb": "assets/certificates/tvto-python-thumb.webp"
+        }
+      ]
+    },
+    {
+      "title": "گواهی‌های دوره‌های آموزشگاهی",
+      "items": [
+        {
+          "title": "گواهی ICDL پروفایل",
+          "issuer": "بنیاد ICDL ایران (i3center)",
+          "date": "۱۹ فوریه ۲۰۲۴",
+          "pdf": "assets/certificates/icdl-certificate.pdf",
+          "image": "assets/certificates/icdl-certificate.jpg",
+          "topics": [
+            "۷ ماژول",
+            "Excel 2013",
+            "Word 2013",
+            "PowerPoint 2013",
+            "Access 2013"
+          ],
+          "thumb": "assets/certificates/icdl-certificate-thumb.webp"
+        },
+        {
+          "title": "گواهی پایان دوره UI & UX Design (طراحی رابط کاربری وب‌سایت)",
+          "issuer": "مجتمع انفوراتیک بین‌الملل (i3center)",
+          "date": "1404/02/13",
+          "credentialId": "8300097084",
+          "topics": [
+            "۳۵ ساعت",
+            "نمره پایانی ۹۸۰"
+          ],
+          "image": "assets/certificates/i3center-ui-ux-design.jpg",
+          "pdf": "assets/certificates/i3center-ui-ux-design.pdf",
+          "thumb": "assets/certificates/i3center-ui-ux-design-thumb.webp"
+        },
+        {
+          "title": "گواهی پایان دوره HTML5 و CSS3",
+          "issuer": "مجتمع انفوراتیک بین‌الملل (i3center)",
+          "date": "1404/03/20",
+          "credentialId": "8300097267",
+          "topics": [
+            "۴۰ ساعت",
+            "نمره پایانی ۹۸۰"
+          ],
+          "image": "assets/certificates/i3center-html5-css3.jpg",
+          "pdf": "assets/certificates/i3center-html5-css3.pdf",
+          "thumb": "assets/certificates/i3center-html5-css3-thumb.webp"
+        },
+        {
+          "title": "گواهی پایان دوره Bootstrap5 و Sass (طراحی ریسپانسیو وب‌سایت)",
+          "issuer": "مجتمع انفوراتیک بین‌الملل (i3center)",
+          "date": "1404/04/14",
+          "credentialId": "8300097279",
+          "topics": [
+            "۲۴ ساعت",
+            "نمره پایانی ۹۷۰"
+          ],
+          "image": "assets/certificates/i3center-bootstrap-sass.jpg",
+          "pdf": "assets/certificates/i3center-bootstrap-sass.pdf",
+          "thumb": "assets/certificates/i3center-bootstrap-sass-thumb.webp"
+        },
+        {
+          "title": "گواهی پایان دوره JavaScript، jQuery و Ajax",
+          "issuer": "مجتمع انفوراتیک بین‌الملل (i3center)",
+          "date": "1404/05/21",
+          "credentialId": "8300097291",
+          "topics": [
+            "۳۲ ساعت",
+            "نمره پایانی ۹۷۰"
+          ],
+          "image": "assets/certificates/i3center-javascript-jquery-ajax.jpg",
+          "pdf": "assets/certificates/i3center-javascript-jquery-ajax.pdf",
+          "thumb": "assets/certificates/i3center-javascript-jquery-ajax-thumb.webp"
+        },
+        {
+          "title": "گواهی پایان دوره TypeScript و Angular (فریم‌ورک فرانت‌اند)",
+          "issuer": "مجتمع انفوراتیک بین‌الملل (i3center)",
+          "date": "1404/11/04",
+          "credentialId": "8300097684",
+          "topics": [
+            "۵۰ ساعت",
+            "نمره پایانی ۹۶۵"
+          ],
+          "image": "assets/certificates/i3center-typescript-angular.jpg",
+          "pdf": "assets/certificates/i3center-typescript-angular.pdf",
+          "thumb": "assets/certificates/i3center-typescript-angular-thumb.webp"
+        },
+        {
+          "title": "گواهی پایان دوره Python، Django و PostgreSQL (متخصص Backend)",
+          "issuer": "مجتمع انفوراتیک بین‌الملل (i3center)",
+          "date": "1405/02/08",
+          "credentialId": "8300097693",
+          "topics": [
+            "۱۲۰ ساعت",
+            "نمره پایانی ۹۷۵"
+          ],
+          "image": "assets/certificates/i3center-python-django-postgresql.jpg",
+          "pdf": "assets/certificates/i3center-python-django-postgresql.pdf",
+          "thumb": "assets/certificates/i3center-python-django-postgresql-thumb.webp"
+        }
+      ]
+    },
+    {
+      "title": "گواهی‌های آموزش آنلاین",
+      "items": [
+        {
+          "title": "گواهی Introduction to HTML",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-html.pdf",
+          "date": "۲۷ ژوئن ۲۰۲۵",
+          "credentialId": "CC-K8LBZTVD",
+          "topics": [
+            "دوره آنلاین",
+            "گواهی پایان دوره"
+          ],
+          "image": "assets/certificates/sololearn-html.jpg",
+          "thumb": "assets/certificates/sololearn-html-thumb.webp"
+        },
+        {
+          "title": "گواهی Introduction to CSS",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-css.pdf",
+          "date": "۲۷ ژوئن ۲۰۲۵",
+          "credentialId": "CC-AZWMKQF8",
+          "topics": [
+            "دوره آنلاین",
+            "گواهی پایان دوره"
+          ],
+          "image": "assets/certificates/sololearn-css.jpg",
+          "thumb": "assets/certificates/sololearn-css-thumb.webp"
+        },
+        {
+          "title": "گواهی Introduction to JavaScript",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-javascript.pdf",
+          "date": "۱۵ ژوئیه ۲۰۲۵",
+          "credentialId": "CC-RZWYVXKN",
+          "topics": [
+            "دوره آنلاین",
+            "گواهی پایان دوره"
+          ],
+          "image": "assets/certificates/sololearn-javascript.jpg",
+          "thumb": "assets/certificates/sololearn-javascript-thumb.webp"
+        },
+        {
+          "title": "گواهی Python Developer",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-python.pdf",
+          "date": "۲۳ اوت ۲۰۲۶",
+          "credentialId": "CC-IOYPVGBV",
+          "topics": [
+            "دوره آنلاین",
+            "گواهی پایان دوره"
+          ],
+          "image": "assets/certificates/sololearn-python.jpg",
+          "thumb": "assets/certificates/sololearn-python-thumb.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "role": "Laureata in Ingegneria Informatica",
+  "tagline": "Sviluppo sistemi di IA e IoT per il monitoraggio della salute e della sicurezza, dal sensore alla dashboard.",
+  "bio": [
+    "Sono laureata in Ingegneria Informatica (laurea triennale, Islamic Azad University, sede di Mashhad) con una media complessiva di 18,91/20 e sono prima in graduatoria tra i laureati del primo semestre dell'anno accademico 2026–2027. I miei interessi sono l'intelligenza artificiale, l'Internet delle cose, i sistemi intelligenti e la salute digitale.",
+    "Il mio progetto di tesi è un sistema IoT di rilevamento di incendi e fumo con dashboard web in tempo reale. Sviluppo inoltre backend web con Django e REST API e cerco opportunità di studio post-laurea, di ricerca e di tirocinio in ingegneria del software."
+  ],
+  "photoAlt": "Ritratto di Samin Akbarizahmati",
+  "badge": "Prima in graduatoria tra i laureati in Ingegneria Informatica, sede di Mashhad, ottobre 2026",
+  "researchInterests": [
+    "Sensori IoT ed elaborazione dati in tempo reale per il monitoraggio di salute e sicurezza",
+    "Rilevamento di anomalie e analisi predittiva su flussi di dati dei sensori",
+    "Machine learning e deep learning per la percezione intelligente",
+    "Sistemi di e-health basati sull'IA e applicazioni di salute digitale"
+  ],
+  "activities": [
+    {
+      "title": "Membro dell'Associazione scientifica",
+      "period": "aprile 2023 – aprile 2024"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Persiano",
+      "level": "Madrelingua"
+    },
+    {
+      "name": "Inglese",
+      "level": "B2 (certificato in corso)"
+    }
+  ],
+  "publicationsEmpty": "Le pubblicazioni di ricerca saranno aggiunte non appena disponibili.",
+  "location": "Teheran, Iran",
+  "honors": [
+    {
+      "title": "Prima in graduatoria tra i laureati in Ingegneria Informatica (indirizzo Ingegneria del software)",
+      "org": "Islamic Azad University, sede di Mashhad",
+      "date": "ottobre 2026",
+      "detail": "Media complessiva: 18,91/20",
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
+    }
+  ],
+  "degreeDocs": [
+    {
+      "title": "Certificato provvisorio di laurea triennale (traduzione ufficiale in inglese)",
+      "issuer": "Islamic Azad University, sede di Mashhad",
+      "date": "4 ottobre 2026",
+      "topics": [
+        "Ingegneria Informatica – Software",
+        "Media 18,91/20",
+        "82 crediti"
+      ],
+      "image": "assets/certificates/bachelor-provisional.jpg",
+      "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
+      "pdf": "assets/certificates/bachelor-provisional.pdf"
+    }
+  ],
+  "transcriptDocs": [
+    {
+      "title": "Transcript accademico (traduzione ufficiale in inglese)",
+      "issuer": "Islamic Azad University, sede di Mashhad",
+      "date": "7 ottobre 2026",
+      "topics": [
+        "37 corsi",
+        "82 crediti",
+        "Media 18,91/20"
+      ],
+      "image": "assets/transcripts/transcript.jpg",
+      "thumb": "assets/transcripts/transcript-thumb.webp",
+      "pdf": "assets/transcripts/transcript.pdf"
+    }
+  ]
+}

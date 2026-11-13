@@ -1,0 +1,93 @@
+{
+  "name": "Samin Akbarizahmati",
+  "role": "Computer Engineering graduate",
+  "tagline": "I build IoT and AI systems for health and safety monitoring, from the sensor to the dashboard.",
+  "bio": [
+    "I am a Computer Engineering graduate (B.Sc., Islamic Azad University, Mashhad Branch) with a cumulative GPA of 18.91/20, ranked 1st among the students who graduated in the first semester of academic year 2026–2027. My interests are artificial intelligence, the Internet of Things, intelligent systems and digital health.",
+    "My thesis project is an IoT fire and smoke detection system with a real-time web dashboard. I also build web backends with Django and REST APIs, and I am looking for graduate research and software engineering internship opportunities."
+  ],
+  "photo": "assets/images/profile.jpg",
+  "photoAlt": "Portrait of Samin Akbarizahmati",
+  "cv": "assets/cv/Samin-Akbarizahmati-CV.pdf",
+  "email": "akbarizahmatis@gmail.com",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/SaminAkbariz",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saminakbarizahmati",
+      "icon": "linkedin"
+    }
+  ],
+  "researchInterests": [
+    "IoT Sensing and Real-Time Data Processing for Health and Safety Monitoring",
+    "Anomaly Detection and Predictive Analytics on Streaming Sensor Data",
+    "Machine Learning and Deep Learning for Intelligent Perception",
+    "AI-driven E-Health Systems and Digital Health Applications"
+  ],
+  "activities": [
+    {
+      "title": "Scientific Association Member",
+      "period": "April 2023 – April 2024"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Persian",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "B2 (certificate in progress)"
+    }
+  ],
+  "publications": [],
+  "publicationsEmpty": "Research publications will be added as they become available.",
+  "badge": "Ranked 1st among Computer Engineering graduates, Mashhad Branch, October 2026",
+  "phone": "+98 993 155 9954",
+  "phoneHref": "+989931559954",
+  "location": "Tehran, Iran",
+  "honors": [
+    {
+      "title": "Ranked 1st among graduates in Computer Engineering (Software Engineering specialization)",
+      "org": "Islamic Azad University, Mashhad Branch",
+      "date": "October 2026",
+      "detail": "Cumulative GPA: 18.91/20",
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
+    }
+  ],
+  "degreeDocs": [
+    {
+      "title": "Provisional Bachelor's Certificate (official English translation)",
+      "issuer": "Islamic Azad University, Mashhad Branch",
+      "date": "October 4, 2026",
+      "topics": [
+        "Computer Engineering – Software",
+        "GPA 18.91/20",
+        "82 credits"
+      ],
+      "image": "assets/certificates/bachelor-provisional.jpg",
+      "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
+      "pdf": "assets/certificates/bachelor-provisional.pdf"
+    }
+  ],
+  "transcriptDocs": [
+    {
+      "title": "Academic Transcript (official English translation)",
+      "issuer": "Islamic Azad University, Mashhad Branch",
+      "date": "October 7, 2026",
+      "topics": [
+        "37 courses",
+        "82 credits",
+        "GPA 18.91/20"
+      ],
+      "image": "assets/transcripts/transcript.jpg",
+      "thumb": "assets/transcripts/transcript-thumb.webp",
+      "pdf": "assets/transcripts/transcript.pdf"
+    }
+  ]
+}

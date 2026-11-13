@@ -1,0 +1,579 @@
+{
+  "scope": "B.Sc. in Computer Engineering (Professional Computer Engineering – Software), Islamic Azad University, Mashhad Branch. Graduated September 14, 2026 after completing 82 credits.",
+  "scope_fa": "کارشناسی مهندسی کامپیوتر (مهندسی حرفه‌ای کامپیوتر – نرم‌افزار)، دانشگاه آزاد اسلامی واحد مشهد. فارغ‌التحصیلی ۱۴ سپتامبر ۲۰۲۶ با گذراندن ۸۲ واحد.",
+  "gpa": 18.91,
+  "gpaMax": 20,
+  "passMark": 10,
+  "document": {
+    "label": "Download transcript (PDF)",
+    "file": "assets/transcripts/transcript.pdf"
+  },
+  "courses": [
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "English for Specific Purposes",
+      "name_fa": "زبان تخصصی",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Inglese per scopi specifici",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "Discrete Mathematics",
+      "name_fa": "ریاضی گسسته",
+      "credits": 2,
+      "grade": 16.03,
+      "name_it": "Matematica discreta",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "Statistics and Probabilities",
+      "name_fa": "آمار و احتمالات",
+      "credits": 3,
+      "grade": 18,
+      "name_it": "Statistica e probabilità",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "Theory of Languages and Machines",
+      "name_fa": "نظریه زبان‌ها و ماشین‌ها",
+      "credits": 3,
+      "grade": 16.75,
+      "name_it": "Teoria dei linguaggi e delle macchine",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "Network Installation and Setup",
+      "name_fa": "نصب و راه‌اندازی شبکه",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Installazione e configurazione di reti",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "Database 2 Lab.",
+      "name_fa": "آزمایشگاه پایگاه داده ۲",
+      "credits": 1,
+      "grade": 16,
+      "name_it": "Laboratorio di basi di dati 2",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "2nd semester, 2024–2025",
+      "term_fa": "نیمسال دوم ۲۰۲۴–۲۰۲۵",
+      "name": "Programming Languages Lab.",
+      "name_fa": "آزمایشگاه زبان‌های برنامه‌نویسی",
+      "credits": 1,
+      "grade": 19,
+      "name_it": "Laboratorio di linguaggi di programmazione",
+      "term_it": "2º semestre, 2024–2025"
+    },
+    {
+      "term": "3rd semester, 2024–2025",
+      "term_fa": "نیمسال سوم ۲۰۲۴–۲۰۲۵",
+      "name": "Thematic Commentary of the Quran",
+      "name_fa": "تفسیر موضوعی قرآن",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Commento tematico del Corano",
+      "term_it": "3º semestre, 2024–2025"
+    },
+    {
+      "term": "3rd semester, 2024–2025",
+      "term_fa": "نیمسال سوم ۲۰۲۴–۲۰۲۵",
+      "name": "Islamic Revolution of Iran",
+      "name_fa": "انقلاب اسلامی ایران",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Rivoluzione islamica dell'Iran",
+      "term_it": "3º semestre, 2024–2025"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Software Engineering",
+      "name_fa": "مهندسی نرم‌افزار",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Ingegneria del software",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "System Programming",
+      "name_fa": "برنامه‌نویسی سیستمی",
+      "credits": 3,
+      "grade": 17,
+      "name_it": "Programmazione di sistema",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Internet Engineering",
+      "name_fa": "مهندسی اینترنت",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Ingegneria di Internet",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Game Development",
+      "name_fa": "بازی‌سازی",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Sviluppo di videogiochi",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Internet of Things",
+      "name_fa": "اینترنت اشیا",
+      "credits": 3,
+      "grade": 18.25,
+      "name_it": "Internet delle cose",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Algorithm Design",
+      "name_fa": "طراحی الگوریتم",
+      "credits": 3,
+      "grade": 18.75,
+      "name_it": "Progettazione di algoritmi",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Advanced Programming",
+      "name_fa": "برنامه‌سازی پیشرفته",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Programmazione avanzata",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Data Mining",
+      "name_fa": "داده‌کاوی",
+      "credits": 3,
+      "grade": 19,
+      "name_it": "Data mining",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2025–2026",
+      "term_fa": "نیمسال اول ۲۰۲۵–۲۰۲۶",
+      "name": "Software Engineering Lab.",
+      "name_fa": "آزمایشگاه مهندسی نرم‌افزار",
+      "credits": 1,
+      "grade": 20,
+      "name_it": "Laboratorio di ingegneria del software",
+      "term_it": "1º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Islamic Thought 2 (Prophethood and Imamate)",
+      "name_fa": "اندیشه اسلامی ۲ (نبوت و امامت)",
+      "credits": 2,
+      "grade": 19,
+      "name_it": "Pensiero islamico 2 (Profezia e Imamato)",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Differential Equations",
+      "name_fa": "معادلات دیفرانسیل",
+      "credits": 3,
+      "grade": 18,
+      "name_it": "Equazioni differenziali",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Artificial Intelligence",
+      "name_fa": "هوش مصنوعی",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Intelligenza artificiale",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Information Security",
+      "name_fa": "امنیت اطلاعات",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Sicurezza delle informazioni",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Sport 1",
+      "name_fa": "ورزش ۱",
+      "credits": 1,
+      "grade": 20,
+      "name_it": "Sport 1",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Special Topics",
+      "name_fa": "مباحث ویژه",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Argomenti speciali",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Software Development",
+      "name_fa": "توسعه نرم‌افزار",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Sviluppo software",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Mobile Programming",
+      "name_fa": "برنامه‌نویسی موبایل",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Programmazione mobile",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "User Interface Design Lab.",
+      "name_fa": "آزمایشگاه طراحی واسط کاربری",
+      "credits": 1,
+      "grade": 20,
+      "name_it": "Laboratorio di progettazione dell'interfaccia utente",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Motion Graphics Lab.",
+      "name_fa": "آزمایشگاه گرافیک و متحرک‌سازی",
+      "credits": 1,
+      "grade": 20,
+      "name_it": "Laboratorio di motion graphics",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Operating System Workshop",
+      "name_fa": "کارگاه سیستم عامل",
+      "credits": 1,
+      "grade": 20,
+      "name_it": "Laboratorio di sistemi operativi",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "2nd semester, 2025–2026",
+      "term_fa": "نیمسال دوم ۲۰۲۵–۲۰۲۶",
+      "name": "Artificial Intelligence Lab.",
+      "name_fa": "آزمایشگاه هوش مصنوعی",
+      "credits": 1,
+      "grade": 20,
+      "name_it": "Laboratorio di intelligenza artificiale",
+      "term_it": "2º semestre, 2025–2026"
+    },
+    {
+      "term": "3rd semester, 2025–2026",
+      "term_fa": "نیمسال سوم ۲۰۲۵–۲۰۲۶",
+      "name": "History of Culture and Civilization in Islam and Iran",
+      "name_fa": "تاریخ فرهنگ و تمدن اسلام و ایران",
+      "credits": 2,
+      "grade": 17.5,
+      "name_it": "Storia della cultura e della civiltà in Islam e in Iran",
+      "term_it": "3º semestre, 2025–2026"
+    },
+    {
+      "term": "3rd semester, 2025–2026",
+      "term_fa": "نیمسال سوم ۲۰۲۵–۲۰۲۶",
+      "name": "Analytical History of Early Islam",
+      "name_fa": "تاریخ تحلیلی صدر اسلام",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Storia analitica dei primi tempi dell'Islam",
+      "term_it": "3º semestre, 2025–2026"
+    },
+    {
+      "term": "3rd semester, 2025–2026",
+      "term_fa": "نیمسال سوم ۲۰۲۵–۲۰۲۶",
+      "name": "Project",
+      "name_fa": "پروژه",
+      "credits": 3,
+      "grade": 20,
+      "name_it": "Progetto",
+      "term_it": "3º semestre, 2025–2026"
+    },
+    {
+      "term": "3rd semester, 2025–2026",
+      "term_fa": "نیمسال سوم ۲۰۲۵–۲۰۲۶",
+      "name": "Internship",
+      "name_fa": "کارآموزی",
+      "credits": 2,
+      "grade": 20,
+      "name_it": "Tirocinio",
+      "term_it": "3º semestre, 2025–2026"
+    },
+    {
+      "term": "1st semester, 2026–2027",
+      "term_fa": "نیمسال اول ۲۰۲۶–۲۰۲۷",
+      "name": "Introduction to the Holy Defense",
+      "name_fa": "آشنایی با دفاع مقدس",
+      "credits": 2,
+      "grade": 12,
+      "name_it": "Introduzione alla Sacra Difesa",
+      "term_it": "1º semestre, 2026–2027"
+    },
+    {
+      "term": "1st semester, 2026–2027",
+      "term_fa": "نیمسال اول ۲۰۲۶–۲۰۲۷",
+      "name": "Islamic Ethics (Foundations and Concepts)",
+      "name_fa": "اخلاق اسلامی (مبانی و مفاهیم)",
+      "credits": 2,
+      "grade": 17.5,
+      "name_it": "Etica islamica (fondamenti e concetti)",
+      "term_it": "1º semestre, 2026–2027"
+    },
+    {
+      "term": "1st semester, 2026–2027",
+      "term_fa": "نیمسال اول ۲۰۲۶–۲۰۲۷",
+      "name": "Man in Islam",
+      "name_fa": "انسان در اسلام",
+      "credits": 2,
+      "grade": 17,
+      "name_it": "L'uomo nell'Islam",
+      "term_it": "1º semestre, 2026–2027"
+    }
+  ],
+  "canadaScales": [
+    {
+      "id": "wes",
+      "name": "WES-style scale",
+      "name_fa": "مقیاس WES",
+      "short": "WES",
+      "basis": "iran",
+      "maxLabel": "4.0",
+      "max": 4.0,
+      "bands": [
+        {
+          "min": 16,
+          "letter": "A",
+          "gp": 4.0
+        },
+        {
+          "min": 14,
+          "letter": "B",
+          "gp": 3.0
+        },
+        {
+          "min": 12,
+          "letter": "C",
+          "gp": 2.0
+        },
+        {
+          "min": 10,
+          "letter": "D",
+          "gp": 1.0
+        },
+        {
+          "min": 0,
+          "letter": "F",
+          "gp": 0.0
+        }
+      ],
+      "name_it": "Scala in stile WES"
+    },
+    {
+      "id": "omsas",
+      "name": "OMSAS (Ontario)",
+      "name_fa": "OMSAS (انتاریو)",
+      "short": "OMSAS",
+      "basis": "percent",
+      "maxLabel": "4.0",
+      "max": 4.0,
+      "bands": [
+        {
+          "min": 90,
+          "letter": "A+",
+          "gp": 4.0
+        },
+        {
+          "min": 85,
+          "letter": "A",
+          "gp": 3.9
+        },
+        {
+          "min": 80,
+          "letter": "A-",
+          "gp": 3.7
+        },
+        {
+          "min": 77,
+          "letter": "B+",
+          "gp": 3.3
+        },
+        {
+          "min": 73,
+          "letter": "B",
+          "gp": 3.0
+        },
+        {
+          "min": 70,
+          "letter": "B-",
+          "gp": 2.7
+        },
+        {
+          "min": 67,
+          "letter": "C+",
+          "gp": 2.3
+        },
+        {
+          "min": 63,
+          "letter": "C",
+          "gp": 2.0
+        },
+        {
+          "min": 60,
+          "letter": "C-",
+          "gp": 1.7
+        },
+        {
+          "min": 57,
+          "letter": "D+",
+          "gp": 1.3
+        },
+        {
+          "min": 53,
+          "letter": "D",
+          "gp": 1.0
+        },
+        {
+          "min": 50,
+          "letter": "D-",
+          "gp": 0.7
+        },
+        {
+          "min": 0,
+          "letter": "F",
+          "gp": 0.0
+        }
+      ],
+      "name_it": "OMSAS (Ontario)"
+    },
+    {
+      "id": "ubc",
+      "name": "Western Canada (UBC/SFU)",
+      "name_fa": "غرب کانادا (UBC/SFU)",
+      "short": "UBC/SFU",
+      "basis": "percent",
+      "maxLabel": "4.33",
+      "max": 4.33,
+      "bands": [
+        {
+          "min": 90,
+          "letter": "A+",
+          "gp": 4.33
+        },
+        {
+          "min": 85,
+          "letter": "A",
+          "gp": 4.0
+        },
+        {
+          "min": 80,
+          "letter": "A-",
+          "gp": 3.67
+        },
+        {
+          "min": 76,
+          "letter": "B+",
+          "gp": 3.33
+        },
+        {
+          "min": 72,
+          "letter": "B",
+          "gp": 3.0
+        },
+        {
+          "min": 68,
+          "letter": "B-",
+          "gp": 2.67
+        },
+        {
+          "min": 64,
+          "letter": "C+",
+          "gp": 2.33
+        },
+        {
+          "min": 60,
+          "letter": "C",
+          "gp": 2.0
+        },
+        {
+          "min": 55,
+          "letter": "C-",
+          "gp": 1.67
+        },
+        {
+          "min": 50,
+          "letter": "D",
+          "gp": 1.0
+        },
+        {
+          "min": 0,
+          "letter": "F",
+          "gp": 0.0
+        }
+      ],
+      "name_it": "Canada occidentale (UBC/SFU)"
+    }
+  ],
+  "italy": {
+    "examMin": 18,
+    "examMax": 30,
+    "degreeMin": 66,
+    "degreeMax": 110
+  },
+  "note": "All 37 courses (82 credits) were completed between 2024 and 2026, so the last-two-years GPA is the same as the cumulative GPA.",
+  "note_fa": "هر ۳۷ درس (۸۲ واحد) بین ۲۰۲۴ و ۲۰۲۶ گذرانده شده‌اند؛ بنابراین معدل دو سال آخر با معدل کل یکی است.",
+  "rank": "1st",
+  "rank_fa": "۱",
+  "scope_it": "Laurea triennale in Ingegneria Informatica (Ingegneria Informatica professionale – Software), Islamic Azad University, sede di Mashhad. Laureata il 14 settembre 2026 con 82 crediti.",
+  "note_it": "Tutti i 37 corsi (82 crediti) sono stati completati tra il 2024 e il 2026, quindi la media degli ultimi due anni coincide con quella complessiva.",
+  "rank_it": "1ª"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "group": "Programmazione",
+    "items": [
+      "Python",
+      "JavaScript",
+      "C#",
+      "SQL"
+    ]
+  },
+  {
+    "group": "Web e backend",
+    "items": [
+      "Django",
+      "REST APIs",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3",
+      "Bootstrap 5"
+    ]
+  },
+  {
+    "group": "IA e IoT",
+    "items": [
+      "Machine Learning",
+      "NLP",
+      "LLM APIs",
+      "ESP32",
+      "ESP8266"
+    ]
+  },
+  {
+    "group": "Strumenti e design",
+    "items": [
+      "Git",
+      "Unity",
+      "Figma",
+      "Adobe XD",
+      "Photoshop",
+      "Adobe Animate",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "group": "Soft skills",
+    "items": [
+      "Lavoro di squadra",
+      "Pensiero critico",
+      "Parlare in pubblico",
+      "Motivazione"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "subjects": [],
+  "categories": [
+    {
+      "title": "Certificati ufficiali di formazione tecnica e professionale",
+      "items": [
+        {
+          "title": "Certificato di competenza in programmazione JavaScript",
+          "issuer": "Organizzazione iraniana per la formazione tecnica e professionale (TVTO)",
+          "date": "2 maggio 2026",
+          "credentialId": "44690401",
+          "topics": [
+            "90 ore",
+            "Punteggio 84/100 — Molto buono",
+            "Traduzione ufficiale in inglese"
+          ],
+          "image": "assets/certificates/tvto-javascript.jpg",
+          "pdf": "assets/certificates/tvto-javascript.pdf",
+          "thumb": "assets/certificates/tvto-javascript-thumb.webp"
+        },
+        {
+          "title": "Certificato di competenza in web design (HTML5, CSS3)",
+          "issuer": "Organizzazione iraniana per la formazione tecnica e professionale (TVTO)",
+          "date": "5 novembre 2025",
+          "credentialId": "43654335",
+          "topics": [
+            "54 ore",
+            "Punteggio 97/100 — Eccellente",
+            "Traduzione ufficiale in inglese"
+          ],
+          "image": "assets/certificates/tvto-html-css.jpg",
+          "pdf": "assets/certificates/tvto-html-css.pdf",
+          "thumb": "assets/certificates/tvto-html-css-thumb.webp"
+        },
+        {
+          "title": "Certificato di competenza in programmazione Python",
+          "issuer": "Organizzazione iraniana per la formazione tecnica e professionale (TVTO)",
+          "date": "2 maggio 2026",
+          "credentialId": "44690391",
+          "topics": [
+            "110 ore",
+            "Punteggio 82/100 — Molto buono",
+            "Traduzione ufficiale in inglese"
+          ],
+          "image": "assets/certificates/tvto-python.jpg",
+          "pdf": "assets/certificates/tvto-python.pdf",
+          "thumb": "assets/certificates/tvto-python-thumb.webp"
+        }
+      ]
+    },
+    {
+      "title": "Certificati di formazione rilasciati da istituti",
+      "items": [
+        {
+          "title": "ICDL Profile Certificate",
+          "issuer": "ICDL Iran Foundation (i3center)",
+          "date": "19 febbraio 2024",
+          "pdf": "assets/certificates/icdl-certificate.pdf",
+          "image": "assets/certificates/icdl-certificate.jpg",
+          "topics": [
+            "7 moduli",
+            "Excel 2013",
+            "Word 2013",
+            "PowerPoint 2013",
+            "Access 2013"
+          ],
+          "thumb": "assets/certificates/icdl-certificate-thumb.webp"
+        },
+        {
+          "title": "Certificato UI & UX Design",
+          "issuer": "i3center International Informatics Complex",
+          "date": "3 maggio 2025",
+          "credentialId": "8300097084",
+          "topics": [
+            "35 ore",
+            "Punteggio finale: 980"
+          ],
+          "image": "assets/certificates/i3center-ui-ux-design.jpg",
+          "pdf": "assets/certificates/i3center-ui-ux-design.pdf",
+          "thumb": "assets/certificates/i3center-ui-ux-design-thumb.webp"
+        },
+        {
+          "title": "Certificato HTML5 & CSS3",
+          "issuer": "i3center International Informatics Complex",
+          "date": "10 giugno 2025",
+          "credentialId": "8300097267",
+          "topics": [
+            "40 ore",
+            "Punteggio finale: 980"
+          ],
+          "image": "assets/certificates/i3center-html5-css3.jpg",
+          "pdf": "assets/certificates/i3center-html5-css3.pdf",
+          "thumb": "assets/certificates/i3center-html5-css3-thumb.webp"
+        },
+        {
+          "title": "Certificato Bootstrap5 & Sass",
+          "issuer": "i3center International Informatics Complex",
+          "date": "5 luglio 2025",
+          "credentialId": "8300097279",
+          "topics": [
+            "24 ore",
+            "Punteggio finale: 970"
+          ],
+          "image": "assets/certificates/i3center-bootstrap-sass.jpg",
+          "pdf": "assets/certificates/i3center-bootstrap-sass.pdf",
+          "thumb": "assets/certificates/i3center-bootstrap-sass-thumb.webp"
+        },
+        {
+          "title": "Certificato JavaScript, jQuery & Ajax",
+          "issuer": "i3center International Informatics Complex",
+          "date": "12 agosto 2025",
+          "credentialId": "8300097291",
+          "topics": [
+            "32 ore",
+            "Punteggio finale: 970"
+          ],
+          "image": "assets/certificates/i3center-javascript-jquery-ajax.jpg",
+          "pdf": "assets/certificates/i3center-javascript-jquery-ajax.pdf",
+          "thumb": "assets/certificates/i3center-javascript-jquery-ajax-thumb.webp"
+        },
+        {
+          "title": "Certificato TypeScript & Angular",
+          "issuer": "i3center International Informatics Complex",
+          "date": "24 gennaio 2026",
+          "credentialId": "8300097684",
+          "topics": [
+            "50 ore",
+            "Punteggio finale: 965"
+          ],
+          "image": "assets/certificates/i3center-typescript-angular.jpg",
+          "pdf": "assets/certificates/i3center-typescript-angular.pdf",
+          "thumb": "assets/certificates/i3center-typescript-angular-thumb.webp"
+        },
+        {
+          "title": "Certificato Python, Django & PostgreSQL",
+          "issuer": "i3center International Informatics Complex",
+          "date": "28 aprile 2026",
+          "credentialId": "8300097693",
+          "topics": [
+            "120 ore",
+            "Punteggio finale: 975"
+          ],
+          "image": "assets/certificates/i3center-python-django-postgresql.jpg",
+          "pdf": "assets/certificates/i3center-python-django-postgresql.pdf",
+          "thumb": "assets/certificates/i3center-python-django-postgresql-thumb.webp"
+        }
+      ]
+    },
+    {
+      "title": "Certificati di apprendimento online",
+      "items": [
+        {
+          "title": "Introduction to HTML",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-html.pdf",
+          "date": "27 giugno 2025",
+          "credentialId": "CC-K8LBZTVD",
+          "topics": [
+            "Corso online",
+            "Certificato del corso"
+          ],
+          "image": "assets/certificates/sololearn-html.jpg",
+          "thumb": "assets/certificates/sololearn-html-thumb.webp"
+        },
+        {
+          "title": "Introduction to CSS",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-css.pdf",
+          "date": "27 giugno 2025",
+          "credentialId": "CC-AZWMKQF8",
+          "topics": [
+            "Corso online",
+            "Certificato del corso"
+          ],
+          "image": "assets/certificates/sololearn-css.jpg",
+          "thumb": "assets/certificates/sololearn-css-thumb.webp"
+        },
+        {
+          "title": "Introduction to JavaScript",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-javascript.pdf",
+          "date": "15 luglio 2025",
+          "credentialId": "CC-RZWYVXKN",
+          "topics": [
+            "Corso online",
+            "Certificato del corso"
+          ],
+          "image": "assets/certificates/sololearn-javascript.jpg",
+          "thumb": "assets/certificates/sololearn-javascript-thumb.webp"
+        },
+        {
+          "title": "Python Developer",
+          "issuer": "Sololearn",
+          "pdf": "assets/certificates/sololearn-python.pdf",
+          "date": "23 agosto 2026",
+          "credentialId": "CC-IOYPVGBV",
+          "topics": [
+            "Corso online",
+            "Certificato del corso"
+          ],
+          "image": "assets/certificates/sololearn-python.jpg",
+          "thumb": "assets/certificates/sololearn-python-thumb.webp"
+        }
+      ]
+    }
+  ]
+}

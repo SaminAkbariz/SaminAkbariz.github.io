@@ -1,0 +1,53 @@
+[
+  {
+    "group": "برنامه‌نویسی",
+    "items": [
+      "Python",
+      "JavaScript",
+      "C#",
+      "SQL"
+    ]
+  },
+  {
+    "group": "وب و بک‌اند",
+    "items": [
+      "Django",
+      "REST APIs",
+      "PostgreSQL",
+      "HTML5",
+      "CSS3",
+      "Bootstrap 5"
+    ]
+  },
+  {
+    "group": "هوش مصنوعی و اینترنت اشیا",
+    "items": [
+      "Machine Learning",
+      "NLP",
+      "LLM APIs",
+      "ESP32",
+      "ESP8266"
+    ]
+  },
+  {
+    "group": "ابزارها و طراحی",
+    "items": [
+      "Git",
+      "Unity",
+      "Figma",
+      "Adobe XD",
+      "Photoshop",
+      "Adobe Animate",
+      "Microsoft Office"
+    ]
+  },
+  {
+    "group": "مهارت‌های نرم",
+    "items": [
+      "کار تیمی",
+      "تفکر انتقادی",
+      "سخنرانی عمومی",
+      "انگیزه"
+    ]
+  }
+]

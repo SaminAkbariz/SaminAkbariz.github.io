@@ -1,0 +1,30 @@
+[
+  {
+    "title": "ربات پرسش و پاسخ هوشمند با GPT-5.2",
+    "summary": "یک ربات پرسش و پاسخ هوشمند که مدل زبانی بزرگ را با تطبیق متن مبتنی بر TF-IDF ترکیب می‌کند و بر پایهٔ Django ساخته شده است.",
+    "repo": "https://github.com/SaminAkbariz/QA_ChatBot",
+    "image": "assets/images/project-chatbot.webp",
+    "imageAlt": "Screenshot of the Intelligent QA ChatBot web interface"
+  },
+  {
+    "title": "سامانه تشخیص آتش و دود مبتنی بر اینترنت اشیا با داشبورد وب لحظه‌ای",
+    "summary": "پروژهٔ پایان‌نامهٔ کارشناسی من. حسگری مبتنی بر ESP32 را به یک داشبورد وب Django متصل می‌کند تا داده‌های آتش و دود به‌صورت لحظه‌ای دنبال شوند.",
+    "repo": "https://github.com/SaminAkbariz/iot-fire-gas-monitoring",
+    "image": "assets/images/project-iot.webp",
+    "imageAlt": "Screenshot of the IoT fire and gas monitoring dashboard"
+  },
+  {
+    "title": "Sky Movie: بک‌اند پلتفرم پخش فیلم",
+    "summary": "بک‌اند یک پلتفرم پخش فیلم با تمرکز بر Django و لایهٔ REST API.",
+    "repo": "https://github.com/SaminAkbariz/Movie-web-backend-with-django-",
+    "image": "assets/images/project-skymovie.webp",
+    "imageAlt": "Screenshot of the Sky Movie streaming platform"
+  },
+  {
+    "title": "بازی دوبعدی Unity: ماجراجویی کیک صورتی",
+    "summary": "یک بازی دوبعدی که با Unity و C# توسعه داده شده است.",
+    "repo": "https://github.com/SaminAkbariz/Pink-cute-cake-Adventure",
+    "image": "assets/images/project-unity.webp",
+    "imageAlt": "Screenshot of the Pink Cute Cake Adventure 2D game"
+  }
+]

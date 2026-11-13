@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Local content editor</title>
+<meta name="robots" content="noindex">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="admin.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid py-3">
+  <div class="alert alert-warning" role="note">
+    <strong>This is a local editor, not a login-protected admin panel.</strong> Edits stay in your browser until you download the JSON file and replace the matching file in the <code>data/</code> folder of your repository, then commit and push to GitHub. Nothing here updates the live website by itself.
+  </div>
+  <div class="d-flex flex-wrap gap-2 align-items-center mb-3">
+    <h1 class="h4 m-0 me-auto">Content editor</h1>
+    <a class="btn btn-outline-primary" href="../index.html?preview=1" target="preview">Open preview in new tab</a>
+  </div>
+  <ul class="nav nav-tabs" id="tabs" role="tablist"></ul>
+  <div class="row g-3 mt-1">
+    <div class="col-lg-7"><div id="form" class="p-3 border border-top-0"></div></div>
+    <div class="col-lg-5">
+      <div class="d-flex flex-wrap gap-2 mb-2">
+        <button class="btn btn-primary" id="save" type="button">Save draft and refresh preview</button>
+        <button class="btn btn-success" id="download" type="button">Download JSON</button>
+        <label class="btn btn-outline-secondary mb-0">Import JSON<input type="file" id="import" accept="application/json" hidden></label>
+        <button class="btn btn-outline-danger" id="reset" type="button">Discard draft</button>
+      </div>
+      <p class="small text-muted" id="status" role="status">Loading...</p>
+      <iframe id="preview" title="Live preview of the portfolio" class="w-100 border" style="height:70vh"></iframe>
+    </div>
+  </div>
+</div>
+<script src="admin.js"></script>
+</body>
+</html>
