@@ -35,7 +35,7 @@ You can also edit `data/*.json` directly on GitHub.
 - Project images and links: set `"image"` and `"repo"` for each project in `data/projects.json`.
 
 ## Privacy
-The site does not publish date of birth, phone number or home address. Never commit passwords, API keys or tokens.
+The site publishes only an official email address and phone number (see `phone` and `email` in `data/profile.json`). Date of birth, postal code, street address and national IDs are never published, and the CV PDF must not contain them either. Never commit passwords, API keys or tokens.
 
 ## Add certificate documents
 1. Put the PDF or image in `assets/certificates/` (for example `django-course.pdf`).

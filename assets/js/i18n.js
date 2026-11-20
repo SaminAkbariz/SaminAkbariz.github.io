@@ -71,7 +71,6 @@ window.UI = {
   "repoSoon": "Repository link will be added.",
   "title": " | Computer Engineering, IoT and AI",
   "footer": "Built with HTML, CSS and JavaScript.",
-  "langLabel": "فارسی",
   "langAria": "Language",
   "themeDark": "Switch to dark mode",
   "themeLight": "Switch to light mode",
@@ -107,7 +106,11 @@ window.UI = {
   "back_home": "Back to home",
   "h_honors": "Honors and awards",
   "h_edu_docs": "Degree documents",
-  "h_tr_docs": "Official transcript copy"
+  "h_tr_docs": "Official transcript copy",
+  "pager_prev": "Previous page",
+  "pager_next": "Next page",
+  "pager_aria": "Page navigation",
+  "swipe_hint": "Swipe left or right to switch pages"
  },
  "fa": {
   "skip": "رفتن به محتوا",
@@ -180,7 +183,6 @@ window.UI = {
   "repoSoon": "لینک مخزن اضافه خواهد شد.",
   "title": " | مهندسی کامپیوتر، اینترنت اشیا و هوش مصنوعی",
   "footer": "ساخته‌شده با HTML، CSS و JavaScript.",
-  "langLabel": "EN",
   "langAria": "زبان",
   "themeDark": "حالت تیره",
   "themeLight": "حالت روشن",
@@ -216,7 +218,11 @@ window.UI = {
   "back_home": "بازگشت به صفحهٔ اصلی",
   "h_honors": "افتخارات و جوایز",
   "h_edu_docs": "مدارک تحصیلی",
-  "h_tr_docs": "نسخهٔ رسمی ریز نمرات"
+  "h_tr_docs": "نسخهٔ رسمی ریز نمرات",
+  "pager_prev": "صفحهٔ قبل",
+  "pager_next": "صفحهٔ بعد",
+  "pager_aria": "پیمایش صفحه‌ها",
+  "swipe_hint": "برای تغییر صفحه، به چپ یا راست بکشید"
  },
  "it": {
   "skip": "Vai al contenuto",
@@ -324,6 +330,10 @@ window.UI = {
   "back_home": "Torna alla home",
   "h_honors": "Riconoscimenti e premi",
   "h_edu_docs": "Documenti del titolo di studio",
-  "h_tr_docs": "Copia ufficiale dei voti"
+  "h_tr_docs": "Copia ufficiale dei voti",
+  "pager_prev": "Pagina precedente",
+  "pager_next": "Pagina successiva",
+  "pager_aria": "Navigazione tra le pagine",
+  "swipe_hint": "Scorri a sinistra o a destra per cambiare pagina"
  }
 };

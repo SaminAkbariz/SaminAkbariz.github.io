@@ -2,7 +2,7 @@
   {
     "title": "ربات پرسش و پاسخ هوشمند با GPT-5.2",
     "summary": "یک ربات پرسش و پاسخ هوشمند که مدل زبانی بزرگ را با تطبیق متن مبتنی بر TF-IDF ترکیب می‌کند و بر پایهٔ Django ساخته شده است.",
-    "repo": "https://github.com/SaminAkbariz/QA_ChatBot",
+    "repo": "https://github.com/SaminAkbariz/QA_ChatBot_Final",
     "image": "assets/images/project-chatbot.webp",
     "imageAlt": "Screenshot of the Intelligent QA ChatBot web interface"
   },

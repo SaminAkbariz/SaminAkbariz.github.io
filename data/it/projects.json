@@ -2,7 +2,7 @@
   {
     "title": "ChatBot intelligente di domande e risposte con GPT-5.2",
     "summary": "Un chatbot intelligente di domande e risposte che combina un modello linguistico di grandi dimensioni con il confronto testuale TF-IDF, sviluppato con Django.",
-    "repo": "https://github.com/SaminAkbariz/QA_ChatBot",
+    "repo": "https://github.com/SaminAkbariz/QA_ChatBot_Final",
     "image": "assets/images/project-chatbot.webp",
     "imageAlt": "Screenshot of the Intelligent QA ChatBot web interface"
   },

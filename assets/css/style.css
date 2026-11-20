@@ -275,3 +275,102 @@ html.preload.pre-done #preloader{opacity:0;pointer-events:none}
 @media (max-width:991.98px){.sc-mail{height:clamp(200px,32vh,300px)}}
 
 .honor .docs{margin-top:.6rem}
+
+/* ======== v5: phone layout, swipe pager, calmer motion ======== */
+html{-webkit-text-size-adjust:100%}
+body{-webkit-tap-highlight-color:transparent;overscroll-behavior-x:none}
+
+/* direction-aware page slide (set by main.js when swiping / using the pager) */
+html.slide-in #main,html.slide-in .site-footer{animation:slideIn .4s cubic-bezier(.2,.7,.2,1) both}
+@keyframes slideIn{from{opacity:0;transform:translateX(var(--sx,0))}to{opacity:1;transform:none}}
+body.sliding.leaving #main,body.sliding.leaving .site-footer{opacity:0;transform:translateX(var(--ex,0));transition:opacity .13s ease,transform .13s ease}
+
+/* bottom pager (phones/tablets only) */
+.pager,.swipe-hint{display:none}
+html[dir="rtl"] .pager-btn i{transform:scaleX(-1)}
+@media (max-width:991.98px){
+  body{padding-bottom:calc(4.75rem + env(safe-area-inset-bottom,0px))}
+  .pager{display:flex;align-items:center;gap:.35rem;position:fixed;left:50%;transform:translateX(-50%);bottom:calc(.75rem + env(safe-area-inset-bottom,0px));z-index:1030;padding:.3rem;border-radius:2rem;
+    background:color-mix(in srgb,var(--surface) 88%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid var(--border);box-shadow:0 6px 20px rgba(3,4,94,.18)}
+  html.preload .pager{display:none}
+  .pager-btn{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;color:var(--heading);text-decoration:none;font-size:1.1rem}
+  a.pager-btn:active{background:var(--bg-alt)}
+  .pager-btn.is-off{opacity:.28}
+  .pager-mid{display:flex;flex-direction:column;align-items:center;gap:.3rem;min-width:7.5rem;max-width:46vw}
+  .pager-label{font-size:.82rem;font-weight:700;color:var(--heading);line-height:1;white-space:nowrap}
+  .pager-dots{display:flex;gap:4px;align-items:center}
+  .pager-dots i{width:5px;height:5px;border-radius:50%;background:var(--border);transition:width .25s,background .25s}
+  .pager-dots i.on{width:16px;border-radius:3px;background:var(--accent)}
+  .swipe-hint{display:block;position:fixed;left:50%;bottom:calc(5rem + env(safe-area-inset-bottom,0px));transform:translate(-50%,8px);opacity:0;z-index:1030;max-width:88vw;text-align:center;
+    background:var(--c1);color:#fff;padding:.5rem 1rem;border-radius:1.4rem;font-size:.9rem;pointer-events:none;transition:opacity .3s,transform .3s}
+  .swipe-hint.show{opacity:1;transform:translate(-50%,0)}
+}
+
+/* calmer motion on touch screens: the endless rotating light + blur on every button is costly */
+@media (hover:none),(max-width:991.98px){
+  .btn::before,.btn::after,.btn-icon::before,.btn-icon::after,.explore::before,.explore::after{animation:none!important}
+  .btn::after,.btn-icon::after,.explore::after{display:none}
+  .cert-card:hover,.project:hover,.explore:hover,.contact-card:hover{transform:none}
+  .cert-card:active,.project:active,.explore:active{transform:scale(.985)}
+}
+
+/* ---- navigation sheet below 1200px ---- */
+@media (max-width:1199.98px){
+  .site-nav .navbar-collapse{margin-top:.5rem;padding:.25rem 0 .6rem;border-top:1px solid var(--border);max-height:calc(100vh - 72px);max-height:calc(100dvh - 72px);overflow-y:auto;overscroll-behavior:contain}
+  .navbar-nav .nav-link{display:flex;align-items:center;min-height:48px;padding:.5rem .25rem;font-size:1.05rem;border-bottom:1px solid color-mix(in srgb,var(--border) 55%,transparent)}
+  .navbar-nav .nav-link.active{color:var(--link);border-inline-start:3px solid var(--c5);padding-inline-start:.75rem;border-bottom-color:color-mix(in srgb,var(--border) 55%,transparent)}
+  .navbar-nav .nav-link.active::before{display:none}
+  .navbar-nav li.d-flex{padding-top:.9rem}
+}
+
+/* ---- phones and small tablets ---- */
+@media (max-width:991.98px){
+  .hero{padding:6rem 0 2.5rem}
+  .hero .col-lg-7{text-align:center}
+  .hero-tagline{margin-inline:auto}
+  .hero .d-flex.flex-wrap{justify-content:center}
+  .hero-badge{text-align:start;margin-inline:auto}
+  .trace{margin-top:1.75rem;height:44px}
+  .section.page-top{padding-top:6.25rem;min-height:0}
+  .page-title{margin-bottom:1rem}
+  .section{padding:3rem 0}
+  .split,.split.scene-left{gap:1.25rem}
+  .split.scene-left>.scene-col{order:2}
+  .sc-ball{height:clamp(220px,32vh,320px)}
+  .sc-mag,.sc-books,.sc-flower,.sc-wrench,.sc-certs,.sc-mail,.sc-aplus{height:clamp(200px,30vh,300px)}
+  .sc-half{height:clamp(170px,28vh,260px)}
+  #heartCanvas{height:clamp(280px,46vh,400px)}
+  .heart-section{padding:2rem 0}
+  .about-text{padding-inline-start:1.1rem}
+  .prose{max-width:none}
+  .cert-dialog{width:96vw;max-width:96vw}
+  .cert-dialog img{max-height:78vh;touch-action:pinch-zoom}
+}
+@media (max-width:575.98px){
+  .container{--bs-gutter-x:2.2rem}
+  body{font-size:1rem}
+  h2{margin-bottom:1.1rem}
+  .stats-sec{padding:1.5rem 0 2rem}
+  .tl-item{margin-bottom:1.5rem}
+  .tl-item h3{font-size:1.15rem}
+  .card-box,.cert-body{padding:1rem}
+  .docs .btn{flex:1 1 auto;justify-content:center}
+  .honor{padding:.85rem}
+  .contact-card{padding:.9rem}
+}
+
+/* ---- transcript: one card per course on phones (no sideways scrolling) ---- */
+@media (max-width:767.98px){
+  .table-responsive:has(#gradeTable){overflow:visible}
+  #gradeTable{min-width:0;display:block}
+  #gradeTable thead{display:none}
+  #gradeTable tbody{display:grid;gap:.7rem}
+  #gradeTable tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.4rem .9rem;padding:.85rem 1rem;border:1px solid var(--border);border-radius:.5rem;background:var(--surface)}
+  #gradeTable tr.term{display:block;padding:.6rem 1rem;background:var(--bg-alt);border-color:transparent}
+  #gradeTable td{display:flex;flex-direction:column;gap:.1rem;border:0;padding:0;background:none;box-shadow:none;min-width:0;font-weight:600}
+  #gradeTable td[data-l]::before{content:attr(data-l);font-size:.76rem;font-weight:600;color:var(--muted)}
+  #gradeTable td.gname{grid-column:1/-1;font-size:1.05rem;font-weight:700;color:var(--heading)}
+  #gradeTable tr.term td{display:block;font-weight:700}
+  html[dir="rtl"] #gradeTable td[data-l]{align-items:flex-end;text-align:right}
+}
+@media (max-width:575.98px){.gpa-num{font-size:1.5rem;white-space:nowrap}}

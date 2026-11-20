@@ -3,8 +3,9 @@
   "role": "Computer Engineering graduate",
   "tagline": "I build IoT and AI systems for health and safety monitoring, from the sensor to the dashboard.",
   "bio": [
-    "I am a Computer Engineering graduate (B.Sc., Islamic Azad University, Mashhad Branch) with a cumulative GPA of 18.91/20, ranked 1st among the students who graduated in the first semester of academic year 2026–2027. My interests are artificial intelligence, the Internet of Things, intelligent systems and digital health.",
-    "My thesis project is an IoT fire and smoke detection system with a real-time web dashboard. I also build web backends with Django and REST APIs, and I am looking for graduate research and software engineering internship opportunities."
+    "I came to computer engineering by a detour. After two years of studying accounting, an extracurricular programming course showed me what I actually loved, and I switched despite the risks and the pressure around me. It is still a decision I am happy with.",
+    "What keeps me going is a feeling I first had on a course project far beyond my skills. I taught myself what I was missing, worked through the bugs and the testing, and when it finally ran I was not thinking about the grade, only: “I actually did it.” I have looked for challenges like that ever since.",
+    "Along the way, projects drew me toward artificial intelligence and IoT, and then toward what they can do for medicine. My thesis, an IoT fire and smoke detection system with a real-time dashboard, is one step on that path. I finished ranked 1st among the graduates of my semester, with a GPA of 18.91/20, and I now hope to join a master’s programme in AI and health technology, where teamwork and research can take me further."
   ],
   "photo": "assets/images/profile.jpg",
   "photoAlt": "Portrait of Samin Akbarizahmati",
