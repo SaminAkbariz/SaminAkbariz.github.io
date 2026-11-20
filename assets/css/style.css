@@ -374,3 +374,33 @@ html[dir="rtl"] .pager-btn i{transform:scaleX(-1)}
   html[dir="rtl"] #gradeTable td[data-l]{align-items:flex-end;text-align:right}
 }
 @media (max-width:575.98px){.gpa-num{font-size:1.5rem;white-space:nowrap}}
+
+/* ======== v6: light theme polish (dark theme untouched) ======== */
+[data-theme="light"]{
+  --bg:#f3f9fd;--bg-alt:#e6f3fa;--surface:#fff;--border:#cfe4ee;--muted:#3d5270;
+  --shadow-sm:0 1px 2px rgba(3,4,94,.05),0 6px 18px rgba(2,62,138,.08);
+  --shadow-md:0 2px 4px rgba(3,4,94,.06),0 14px 32px rgba(2,62,138,.14);
+}
+[data-theme="light"] body{
+  background:radial-gradient(900px 460px at 92% -6%,rgba(72,202,228,.22),transparent 62%),
+             radial-gradient(760px 420px at -12% 18%,rgba(0,119,182,.10),transparent 58%),var(--bg);
+}
+[data-theme="light"] .site-nav{background:color-mix(in srgb,#fff 80%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 6px 22px rgba(2,62,138,.07)}
+[data-theme="light"] .hero{background:linear-gradient(180deg,rgba(214,237,248,.65),rgba(243,249,253,0))}
+[data-theme="light"] .card-box,[data-theme="light"] .cert-card,[data-theme="light"] .project,[data-theme="light"] .contact-card,
+[data-theme="light"] .stat,[data-theme="light"] .course,[data-theme="light"] .honor,[data-theme="light"] .explore,[data-theme="light"] .hero-badge,[data-theme="light"] #gradeTable tr{
+  background:var(--surface);border-color:var(--border);box-shadow:var(--shadow-sm)}
+[data-theme="light"] .cert-card:hover,[data-theme="light"] .project:hover,[data-theme="light"] .explore:hover,[data-theme="light"] .contact-card:hover{box-shadow:var(--shadow-md)}
+[data-theme="light"] h1.page-title::after,[data-theme="light"] h2:not(.h4):not(.h5)::after{content:"";display:block;width:46px;height:4px;border-radius:3px;margin-top:.6rem;background:linear-gradient(90deg,var(--c3),var(--c5))}
+[data-theme="light"] h1.title-gear::after,[data-theme="light"] h1[class*="title-"]::after{display:none}
+[data-theme="light"] .btn-accent{background:linear-gradient(135deg,#0a86c8,#023e8a);box-shadow:0 6px 16px rgba(2,62,138,.28)}
+[data-theme="light"] .btn-accent:hover{background:linear-gradient(135deg,#023e8a,#03045e)}
+[data-theme="light"] .btn-outline-accent{background:rgba(255,255,255,.7)}
+[data-theme="light"] .tag{background:linear-gradient(180deg,#d9f3fb,#c3ecf8);color:var(--c1);box-shadow:inset 0 0 0 1px rgba(0,119,182,.14)}
+[data-theme="light"] .hero-photo{box-shadow:6px 6px 0 var(--c7),0 18px 36px rgba(2,62,138,.18)}
+[data-theme="light"] .about-text{background:rgba(255,255,255,.72);border-radius:.6rem;padding-block:1rem;box-shadow:var(--shadow-sm)}
+[data-theme="light"] .pager{background:color-mix(in srgb,#fff 90%,transparent);box-shadow:0 8px 24px rgba(2,62,138,.2)}
+[data-theme="light"] ::selection{background:var(--c7);color:var(--c1)}
+@media (max-width:991.98px){[data-theme="light"] .about-text{padding-inline:1.1rem}}
+/* keep the round phone photo in dark mode too (an older rule forced the tall frame there) */
+@media (max-width:991.98px){[data-theme="dark"] .hero-photo{width:clamp(170px,42vw,240px);border-radius:50%;aspect-ratio:1/1;box-shadow:6px 6px 0 var(--c7)}}
