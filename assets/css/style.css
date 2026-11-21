@@ -447,3 +447,10 @@ html[dir="rtl"] .pager-btn i{transform:scaleX(-1)}
   [data-theme="light"] .scene-col{padding:.4rem;border-radius:1rem}
   [data-theme="light"] .scene-col .sc{height:clamp(210px,32vh,300px)}
 }
+
+/* Education: degree document and honor card side by side (stacked on phones) */
+.edu-pair>[class*="col-"]{display:flex;flex-direction:column}
+.edu-stack{flex:1;display:grid;grid-template-columns:minmax(0,1fr);gap:1rem;align-content:stretch}
+.edu-stack>.col-md-6{width:100%;max-width:100%;padding:0}
+.edu-stack .cert-card,.edu-stack .honor{height:100%}
+.edu-pair h2{margin-bottom:1rem}

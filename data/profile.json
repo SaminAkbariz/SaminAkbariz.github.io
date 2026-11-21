@@ -55,8 +55,16 @@
     {
       "title": "Ranked 1st among graduates in Computer Engineering (Software Engineering specialization)",
       "org": "Islamic Azad University, Mashhad Branch",
-      "date": "October 2026",
-      "detail": "Cumulative GPA: 18.91/20"
+      "date": "October 10, 2026",
+      "detail": "Cumulative GPA: 18.91/20",
+      "topics": [
+        "Rank 1",
+        "GPA 18.91/20",
+        "82 credits"
+      ],
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "degreeDocs": [
@@ -72,19 +80,6 @@
       "image": "assets/certificates/bachelor-provisional.jpg",
       "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
       "pdf": "assets/certificates/bachelor-provisional.pdf"
-    },
-    {
-      "title": "Rank Certificate: 1st among graduates (official English translation)",
-      "issuer": "Islamic Azad University, Mashhad Branch",
-      "date": "October 10, 2026",
-      "topics": [
-        "Rank 1",
-        "GPA 18.91/20",
-        "82 credits"
-      ],
-      "image": "assets/certificates/bachelor-ranking.jpg",
-      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
-      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "transcriptDocs": [

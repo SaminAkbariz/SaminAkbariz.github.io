@@ -36,8 +36,16 @@
     {
       "title": "Prima in graduatoria tra i laureati in Ingegneria Informatica (indirizzo Ingegneria del software)",
       "org": "Islamic Azad University, sede di Mashhad",
-      "date": "ottobre 2026",
-      "detail": "Media complessiva: 18,91/20"
+      "date": "10 ottobre 2026",
+      "detail": "Media complessiva: 18,91/20",
+      "topics": [
+        "1° posto",
+        "Media 18,91/20",
+        "82 crediti"
+      ],
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "degreeDocs": [
@@ -53,19 +61,6 @@
       "image": "assets/certificates/bachelor-provisional.jpg",
       "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
       "pdf": "assets/certificates/bachelor-provisional.pdf"
-    },
-    {
-      "title": "Certificato di graduatoria: 1° tra i laureati (traduzione ufficiale in inglese)",
-      "issuer": "Islamic Azad University, sede di Mashhad",
-      "date": "10 ottobre 2026",
-      "topics": [
-        "1° posto",
-        "Media 18,91/20",
-        "82 crediti"
-      ],
-      "image": "assets/certificates/bachelor-ranking.jpg",
-      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
-      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "transcriptDocs": [

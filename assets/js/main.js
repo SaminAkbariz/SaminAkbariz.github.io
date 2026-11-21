@@ -273,7 +273,11 @@
         (url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> ' + t("viewRepo") + "</a>" : '<span class="muted">' + t("repoSoon") + "</span>") + "</div></article></div>";
     }).join("");
     renderCerts(d.certificates);
-    $("honorsList").innerHTML = (p.honors || []).map(function (h) { return '<div class="honor"><i class="bi bi-award" aria-hidden="true"></i><div><strong>' + esc(h.title) + "</strong><div class=\"muted\">" + esc(h.org) + (h.date ? " · " + esc(h.date) : "") + "</div>" + (h.detail ? '<div class="muted">' + esc(h.detail) + "</div>" : "") + honorLinks(h) + "</div></div>"; }).join("");
+    $("honorsList").innerHTML = (p.honors || []).map(function (h) {
+      if (h.image || h.pdf) return certCard({ title: h.title, issuer: h.org, date: h.date, topics: h.topics || (h.detail ? [h.detail] : []), image: h.image, thumb: h.thumb, pdf: h.pdf });
+      return '<div class="honor"><i class="bi bi-award" aria-hidden="true"></i><div><strong>' + esc(h.title) + "</strong><div class=\"muted\">" + esc(h.org) + (h.date ? " · " + esc(h.date) : "") + "</div>" + (h.detail ? '<div class="muted">' + esc(h.detail) + "</div>" : "") + honorLinks(h) + "</div></div>";
+    }).join("");
+    certImgErr($("honorsList"));
     renderDocs("eduDocs", p.degreeDocs); renderDocs("trDocs", p.transcriptDocs);
     renderContact(p);
     if (document.getElementById("gradeTable")) renderTranscript(d.transcript);

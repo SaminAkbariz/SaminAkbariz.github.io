@@ -37,8 +37,16 @@
     {
       "title": "رتبهٔ ۱ میان فارغ‌التحصیلان مهندسی کامپیوتر (گرایش مهندسی نرم‌افزار)",
       "org": "دانشگاه آزاد اسلامی، واحد مشهد",
-      "date": "اکتبر ۲۰۲۶",
-      "detail": "معدل کل: 18.91 از 20"
+      "date": "۱۴۰۵/۰۷/۱۸",
+      "detail": "معدل کل: 18.91 از 20",
+      "topics": [
+        "رتبهٔ ۱",
+        "معدل ۱۸٫۹۱ از ۲۰",
+        "۸۲ واحد"
+      ],
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "degreeDocs": [
@@ -54,19 +62,6 @@
       "image": "assets/certificates/bachelor-provisional.jpg",
       "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
       "pdf": "assets/certificates/bachelor-provisional.pdf"
-    },
-    {
-      "title": "گواهی رتبهٔ ۱ میان دانش‌آموختگان (ترجمهٔ رسمی انگلیسی)",
-      "issuer": "دانشگاه آزاد اسلامی، واحد مشهد",
-      "date": "۱۴۰۵/۰۷/۱۸",
-      "topics": [
-        "رتبهٔ ۱",
-        "معدل ۱۸٫۹۱ از ۲۰",
-        "۸۲ واحد"
-      ],
-      "image": "assets/certificates/bachelor-ranking.jpg",
-      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
-      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "transcriptDocs": [
