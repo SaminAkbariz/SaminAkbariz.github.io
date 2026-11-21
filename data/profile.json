@@ -1,7 +1,7 @@
 {
   "name": "Samin Akbarizahmati",
   "role": "Computer Engineering graduate",
-  "tagline": "I build IoT and AI systems for health and safety monitoring, from the sensor to the dashboard.",
+  "tagline": "Eager to continue my path toward a master’s degree.",
   "bio": [
     "I came to computer engineering by a detour. After two years of studying accounting, an extracurricular programming course showed me what I actually loved, and I switched despite the risks and the pressure around me. It is still a decision I am happy with.",
     "What keeps me going is a feeling I first had on a course project far beyond my skills. I taught myself what I was missing, worked through the bugs and the testing, and when it finally ran I was not thinking about the grade, only: “I actually did it.” I have looked for challenges like that ever since.",
@@ -56,9 +56,7 @@
       "title": "Ranked 1st among graduates in Computer Engineering (Software Engineering specialization)",
       "org": "Islamic Azad University, Mashhad Branch",
       "date": "October 2026",
-      "detail": "Cumulative GPA: 18.91/20",
-      "image": "assets/certificates/bachelor-ranking.jpg",
-      "pdf": "assets/certificates/bachelor-ranking.pdf"
+      "detail": "Cumulative GPA: 18.91/20"
     }
   ],
   "degreeDocs": [
@@ -74,6 +72,19 @@
       "image": "assets/certificates/bachelor-provisional.jpg",
       "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
       "pdf": "assets/certificates/bachelor-provisional.pdf"
+    },
+    {
+      "title": "Rank Certificate: 1st among graduates (official English translation)",
+      "issuer": "Islamic Azad University, Mashhad Branch",
+      "date": "October 10, 2026",
+      "topics": [
+        "Rank 1",
+        "GPA 18.91/20",
+        "82 credits"
+      ],
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "transcriptDocs": [

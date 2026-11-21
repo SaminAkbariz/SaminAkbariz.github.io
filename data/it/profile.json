@@ -1,6 +1,6 @@
 {
   "role": "Laureata in Ingegneria Informatica",
-  "tagline": "Sviluppo sistemi di IA e IoT per il monitoraggio della salute e della sicurezza, dal sensore alla dashboard.",
+  "tagline": "Motivata a proseguire il percorso verso la laurea magistrale.",
   "bio": [
     "Sono arrivata all’ingegneria informatica per una strada inattesa. Dopo due anni di studi in contabilità, un corso extracurricolare di programmazione mi ha mostrato ciò che amavo davvero, e ho scelto di cambiare nonostante i rischi e le pressioni intorno a me. È una decisione di cui sono ancora felice.",
     "Ciò che mi motiva è una sensazione provata per la prima volta in un progetto universitario ben oltre le mie competenze. Ho studiato da sola ciò che mi mancava, ho superato bug e test, e quando finalmente ha funzionato non pensavo al voto, ma solo: «ce l’ho fatta davvero». Da allora cerco sfide di questo tipo.",
@@ -37,9 +37,7 @@
       "title": "Prima in graduatoria tra i laureati in Ingegneria Informatica (indirizzo Ingegneria del software)",
       "org": "Islamic Azad University, sede di Mashhad",
       "date": "ottobre 2026",
-      "detail": "Media complessiva: 18,91/20",
-      "image": "assets/certificates/bachelor-ranking.jpg",
-      "pdf": "assets/certificates/bachelor-ranking.pdf"
+      "detail": "Media complessiva: 18,91/20"
     }
   ],
   "degreeDocs": [
@@ -55,6 +53,19 @@
       "image": "assets/certificates/bachelor-provisional.jpg",
       "thumb": "assets/certificates/bachelor-provisional-thumb.webp",
       "pdf": "assets/certificates/bachelor-provisional.pdf"
+    },
+    {
+      "title": "Certificato di graduatoria: 1° tra i laureati (traduzione ufficiale in inglese)",
+      "issuer": "Islamic Azad University, sede di Mashhad",
+      "date": "10 ottobre 2026",
+      "topics": [
+        "1° posto",
+        "Media 18,91/20",
+        "82 crediti"
+      ],
+      "image": "assets/certificates/bachelor-ranking.jpg",
+      "thumb": "assets/certificates/bachelor-ranking-thumb.webp",
+      "pdf": "assets/certificates/bachelor-ranking.pdf"
     }
   ],
   "transcriptDocs": [
