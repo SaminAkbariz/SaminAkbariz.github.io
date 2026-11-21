@@ -4,6 +4,8 @@
   "use strict";
   var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   var PAL = [[0, 119, 182], [0, 150, 199], [0, 180, 216], [72, 202, 228], [144, 224, 239]];
+  /* on light pages every particle uses one clear brand blue and turns deep navy (not white) when highlighted */
+  var LC = [0, 102, 170], LH = [3, 4, 94], rootEl = document.documentElement;
   var CH = "01ABCDEFGHJKLMNPQRSTUVWXYZ23456789", R = Math.random, PI = Math.PI;
   function rc() { return CH.charAt(R() * CH.length | 0); }
   function P(x, y, z) { var c = PAL[R() * 5 | 0]; return { x: x, y: y, z: z, r: c[0], g: c[1], b: c[2], ch: rc(), lit: 0, from: 0, to: 0, t0: 0, dur: 450, dn: 0 }; }
@@ -189,6 +191,7 @@
   function flowerTick(st, dt) { if (!st.started) return; st.bt += dt; var k = Math.max(0, Math.min(1, st.bt / 3.4)); st.bloom = k * k * (3 - 2 * k); }
 
   function create(cv, name) {
+    var onDark = !!(cv.closest && cv.closest(".heart-panel, #preloader"));
     var cfg = CFG[name]; if (!cfg || !cv.getContext) return;
     var ctx = cv.getContext("2d"), pts = cfg.b(), st = { rz: 0, ox: 0, oy: 0, bloom: 0 }, o = { x: 0, y: 0, z: 0 };
     var theta = 0.6, off = 0, vel = 0, target = 0, dragging = false, moved = 0, lx = 0, last = 0, running = false, vis = name === "preheart";
@@ -200,6 +203,7 @@
     if (cfg.spin != null) st.spin = cfg.spin;
 
     function kick() { if (!running && vis) { running = true; last = performance.now(); requestAnimationFrame(frame); } }
+    if (window.MutationObserver) new MutationObserver(function () { kick(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
     function resize() {
       var r = cv.getBoundingClientRect(); if (!r.width || !r.height) return;
       dpr = Math.min(2, window.devicePixelRatio || 1); W = r.width; H = r.height;
@@ -261,9 +265,11 @@
       }
       if (avg > 0.01) {
         var g = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, Math.min(S * 1.6, Math.min(W, H) / 2));
-        g.addColorStop(0, "rgba(255,255,255," + (0.26 * avg) + ")"); g.addColorStop(0.5, "rgba(72,202,228," + (0.13 * avg) + ")"); g.addColorStop(1, "rgba(72,202,228,0)");
+        if (!onDark && rootEl.getAttribute("data-theme") === "light") { g.addColorStop(0, "rgba(0,150,199," + (0.16 * avg) + ")"); g.addColorStop(0.5, "rgba(0,150,199," + (0.07 * avg) + ")"); g.addColorStop(1, "rgba(0,150,199,0)"); }
+        else { g.addColorStop(0, "rgba(255,255,255," + (0.26 * avg) + ")"); g.addColorStop(0.5, "rgba(72,202,228," + (0.13 * avg) + ")"); g.addColorStop(1, "rgba(72,202,228,0)"); }
         ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
       }
+      var LT = !onDark && rootEl.getAttribute("data-theme") === "light";
       var cT = Math.cos(theta), sT = Math.sin(theta), cp = Math.cos(cfg.tilt), sp = Math.sin(cfg.tilt), cyo = cfg.cy || 0, maxE = 0, cam = cfg.cam ? cfg.cam(st) : null;
       for (i = 0; i < pts.length; i++) {
         p = pts[i]; var X = p.x, Y = p.y, Z = p.z, e = 0;
@@ -271,10 +277,11 @@
         if (active) { e = offF(p, u); if (e > maxE) maxE = e; X += p.ex * e; Y += p.ey * e; Z += p.ez * e; }
         var xr = X * cT + Z * sT, zr = -X * sT + Z * cT, y2 = Y * cp - zr * sp, d2 = Y * sp + zr * cp, sc = 3.6 / (3.6 - d2);
         if (cam) { xr += cam[0]; y2 += cam[1]; }
-        var l = cfg.manual ? litM : p.lit, a = 0.22 + 0.78 * Math.max(0, Math.min(1, (d2 + 1.2) / 2.4));
+        var l = cfg.manual ? litM : p.lit, dp = Math.max(0, Math.min(1, (d2 + 1.2) / 2.4)), a = LT ? 0.45 + 0.55 * dp : 0.22 + 0.78 * dp;
         a = (a + (1 - a) * l * 0.5) * bright * (1 - 0.25 * e);
         ctx.globalAlpha = a < 0 ? 0 : a;
-        ctx.fillStyle = "rgb(" + ((p.r + (255 - p.r) * l) | 0) + "," + ((p.g + (255 - p.g) * l) | 0) + "," + ((p.b + (255 - p.b) * l) | 0) + ")";
+        var br = LT ? LC[0] : p.r, bg = LT ? LC[1] : p.g, bb = LT ? LC[2] : p.b, tr = LT ? LH[0] : 255, tg = LT ? LH[1] : 255, tb = LT ? LH[2] : 255;
+        ctx.fillStyle = "rgb(" + ((br + (tr - br) * l) | 0) + "," + ((bg + (tg - bg) * l) | 0) + "," + ((bb + (tb - bb) * l) | 0) + ")";
         ctx.fillText(p.ch, W / 2 + xr * S * sc * beat, H / 2 - (y2 + cyo) * S * sc * beat);
         if (!reduce && R() < (active ? 0.06 : (l > 0.02 && l < 0.98) ? 0.1 : 0.004)) p.ch = rc();
       }
